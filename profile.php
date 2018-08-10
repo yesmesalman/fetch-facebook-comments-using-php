@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>FETCH COMMENTS</title>
+	<title>Fetch Comments</title>
 	<style type="text/css">
 		body{
 			padding: 40px 100px;
@@ -35,7 +35,7 @@
 if(isset($_POST['submit'])){
 	$ch = curl_init();
 	$post = $_POST['id'];
-	curl_setopt($ch, CURLOPT_URL, "https://graph.facebook.com/v3.1/PASTE_YOUR_NUMERIC_PROFILE_ID".$post."/comments?limit=10000&access_token=PASTE_YOUR_ACCESS_TOKEN_HERE");
+	curl_setopt($ch, CURLOPT_URL, "https://graph.facebook.com/v3.1/PASTE_YOUR_NUMERIC_PROFILE_ID".'_'.$post."/comments?limit=10000&access_token=PASTE_YOUR_ACCESS_TOKEN_HERE");
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 	$results = curl_exec($ch);
 	$results = json_decode($results);
