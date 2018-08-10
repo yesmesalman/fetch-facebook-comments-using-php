@@ -15,6 +15,8 @@ paste the credentials in profile.php and run the file, a text field and button w
 DONE
 
 
+
+
 # for page posts
 ### GET ACCESS TOKEN
 Go & create facebook app by clicking https://developers.facebook.com/apps/
