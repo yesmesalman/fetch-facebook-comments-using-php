@@ -2,7 +2,7 @@
 Script to fetch comments of facebook post using PHP and cURL
 
 
-## for profile posts
+# for profile posts
 ### GET ACCESS TOKEN
 Go & create facebook app by clicking https://developers.facebook.com/apps/
 then go to https://developers.facebook.com/tools/explorer/ and create access token by clicking on Get Token drop down & select Get User Access Token option & the modal will appear, from modal select user_posts and user_status from upper right top
@@ -15,7 +15,7 @@ paste the credentials in profile.php and run the file, a text field and button w
 DONE
 
 
-## for page posts
+# for page posts
 ### GET ACCESS TOKEN
 Go & create facebook app by clicking https://developers.facebook.com/apps/
 then go to https://developers.facebook.com/tools/explorer/ and create access token by clicking on Get Token drop down & select page you want to fetch comments of post of. and copy access token.
